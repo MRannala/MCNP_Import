@@ -223,7 +223,7 @@ wb = pxl.Workbook()
 sheet = wb.active
 
 # Sort RESULT alphabetical order
-RESULT =RESULT.sort_index(acsending=True)
+RESULT =RESULT.sort_index(ascending=True)
 
 # Write Dataframe to excel 
 RESULT.to_excel(writer, "Sheet 1")
